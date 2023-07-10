@@ -1,10 +1,10 @@
-import MainPage from './pageElements/main';
-import EditBacklog from './descriptionEditor/editBacklog';
-import EditReady from './descriptionEditor/editReady';
-import EditInProgress from './descriptionEditor/editInProgress';
-import EditFinished from './descriptionEditor/editFinished';
+import MainPage from '../pageElements/main';
+import EditBacklog from '../descriptionEditor/editBacklog';
+import EditReady from '../descriptionEditor/editReady';
+import EditInProgress from '../descriptionEditor/editInProgress';
+import EditFinished from '../descriptionEditor/editFinished';
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, Route, Routes } from 'react-router';
 const App = () => {
     const navigate = useNavigate();
